@@ -18,6 +18,7 @@ const ProjectDetails = ({project, dataIndex}) => {
       <div className={styles.image_container}>
         <Image
         //  src={''} 
+        key={dataIndex}
          width={600}
          height={300}
         //  src={urlForImage(project.h_image[index1])} 
@@ -31,7 +32,7 @@ const ProjectDetails = ({project, dataIndex}) => {
       <div className={styles.small_images_container}>
         {project.h_image?.map((item, i) => (
           <Image 
-            // key={i}
+            key={i}
             // src={''}
             alt={i}
             src={builder.image(item).width(1280).height(720).url()}
@@ -55,7 +56,7 @@ const ProjectDetails = ({project, dataIndex}) => {
      
       <div className={styles.project_info}>
       {project.details?.map((item, i) => (
-          <p className={styles.project_info_text}><span className={styles.project_info_title}>{item.title}</span> {item.text}</p>
+          <p key={i} className={styles.project_info_text}><span className={styles.project_info_title}>{item.title}</span> {item.text}</p>
          ))}
         {/* <p className={styles.project_info_text}><span className={styles.project_info_title}>Year</span> 2000</p>
         <p className={styles.project_info_text}><span className={styles.project_info_title}>Year</span> 2000</p>
@@ -71,7 +72,7 @@ const ProjectDetails = ({project, dataIndex}) => {
          width={400}
          height={650}
          src={builder.image(project.v_image[index2]).width(910).height(1280).url()} 
-         
+         key={dataIndex}
         className={styles.product_detail_image_v}
         // alt={''}
         alt={project.v_image[0]?.alt} 
@@ -80,7 +81,7 @@ const ProjectDetails = ({project, dataIndex}) => {
       <div className={styles.small_images_container_v}>
         {project.v_image?.map((item, i) => (
           <img 
-            // key={i}
+            key={i}
             // src={''}
             src={builder.image(item).width(910).height(1280).url()}
             // className={styles.small_image_v}
