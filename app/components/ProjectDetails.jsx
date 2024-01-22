@@ -6,7 +6,7 @@ import { urlForImage } from '@/sanity/lib/image';
 import imageUrlBuilder from "@sanity/image-url";
 import { client } from '@/sanity/lib/client';
 
-const ProjectDetails = ({project, dataIndex}) => {
+const ProjectDetails = ({key, project, dataIndex}) => {
   const [index1, setIndex1] = useState(0);
   const [index2, setIndex2] = useState(0);
   const builder = imageUrlBuilder(client);
