@@ -28,7 +28,7 @@ export default async function Project ({ params }) {
       <div className={styles.collection}> */}
         {projects?.map((project, index) => {
           return (
-            <ProjectDetails key={project._id} project={project} dataIndex={index}/>
+            <ProjectDetails project={project} dataIndex={index}/>
           )
         })} 
       </div>
