@@ -14,15 +14,13 @@ function About() {
     <div className={styles.about_detail_desc}>
       
       <div className={styles.details}>About Me</div>
-    <p>gvjafvb adjbgvkjasdbv kjbgjabdg jkabgjkbad ag jabgjka asdg jkabg kjsdbgjksdbg anviasodngv alkgbilng langianedkdnkdos lskbnkdnkd lsdbnds ndksfdn kdnvskdn kxcnvsdb sfbnfb skn bdsfbs bdbvkz dv b sv s bs bksrbksb ks</p>
-    <p>gvjafvb adjbgvkjasdbv kjbgjabdg jkabgjkbad ag jabgj fdsf asfege  egsa f zgv dgs</p>
-    <p>gvjafvb adjbgvkjasdbv kjbgjabdg jkabgjkbad ag jabgjka asdg jkabg kjsdbgjksdbg anviasodngv alkgbilng langianedkdnkdos lskbnkdnkd lsdbnds ndksfdn kdnvskdn kxcnvsdb sfbnfb skn bdsfbs bdbvkz dv b sv s bs bksrbksb ks</p>
+    <p>Experienced 3 years of working as an architect in 2 countries (Sudan and UAE) which enhanced communication and teamwork skills through different culture and regulations. Achieved a record of creating and managing 40+ innovative and functional designs which resulted in high-quality architectural drawings that meet client requirements successfully by 90%. Dedicated to staying updated with design trends and technology advancements.</p>
    
     <div className={styles.project_info}>
-      <p className={styles.project_info_text}><span className={styles.project_info_title}>Email</span> test@mail.com</p>
-      <p className={styles.project_info_text}><span className={styles.project_info_title}>Phone</span> 0912345678</p>
+      <p className={styles.project_info_text}><span className={styles.project_info_title}>Email</span> Eng.Dholal@gmail.com</p>
+      <p className={styles.project_info_text}><span className={styles.project_info_title}>Phone</span> +971525576724</p>
     </div>
-    <div className={styles.about_btn2}>Download Resume</div>
+    <div className={styles.about_btn2}><a href="/public/DHOLAL_MOHAMEDKHAIR_CV.pdf" download="Dholal_MohamedKahir_CV" class="btn-box">Download Resume</a></div>
     
   </div>
     <div className={styles.about_img}>
@@ -30,7 +28,7 @@ function About() {
         <Image
          src={''} 
          width={500}
-         height={550}
+         height={350}
         //  src={urlForImage(image[index])} 
          
         className={styles.product_detail_image}

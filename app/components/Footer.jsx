@@ -26,9 +26,9 @@ const Footer = () => {
                     <div className={styles.footer_policies}>
                     <div className={styles.footer_pages_title2}>Projects</div>
                         <div className={styles.footer_pages_items}>
-                            <Link href={'/'}><ul>Residential</ul></Link>
-                            <Link href={'/'}><ul>Commercial</ul></Link>
-                            <Link href={'/'}><ul>Interior Design</ul></Link>
+                            <Link href={'/residential'}><ul>Residential</ul></Link>
+                            <Link href={'/commercial'}><ul>Commercial</ul></Link>
+                            <Link href={'/interior-design'}><ul>Interior Design</ul></Link>
                             
                         </div>
                     </div>
@@ -37,9 +37,9 @@ const Footer = () => {
             <div className={styles.footer_right}>
                 <div className={styles.footer_social}>
                     <div className={styles.footer_pages_title3}>Reach Me</div>
-                        <div className={styles.footer_pages_title4}><HiOutlineMail className={styles.footer_email}/> Email: <span>dholal@gmail.com</span></div>
-                        <div className={styles.footer_pages_title4}><HiOutlinePhone className={styles.footer_email}/> Phone: <span>0987654321</span></div>
-                        <div className={styles.footer_pages_title4}><AiFillLinkedin className={styles.footer_email}/>LinkedIn: <span>Click here</span></div>
+                        <div className={styles.footer_pages_title4}><HiOutlineMail className={styles.footer_email}/> Email: <span>Eng.Dholal@gmail.com</span></div>
+                        <div className={styles.footer_pages_title4}><HiOutlinePhone className={styles.footer_email}/> Phone: <span>+971525576724</span></div>
+                        <div className={styles.footer_pages_title4}><AiFillLinkedin className={styles.footer_email}/>LinkedIn: <span><a href="https://linkedin.com/in/dholal-khair">Click here</a></span></div>
                 </div>  
             </div>
         </div>

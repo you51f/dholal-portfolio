@@ -32,8 +32,8 @@ const Navbar = ({colorStyle}) => {
           <div className={styles.navbar_right}>
             <div className={styles.navbar_list}>
               <Link href={'/'}><ul>Home</ul></Link>
-              <Link href={'/'}><ul>Projects</ul></Link>
-              <Link href={'/'}><ul>About</ul></Link>
+              {/* <Link href={'/'}><ul>Projects</ul></Link> */}
+              <Link href={'/about'}><ul>About</ul></Link>
               {/* <ul>Catalog</ul>
               <ul>Contact</ul>
               <ul>About</ul> */}
@@ -53,8 +53,10 @@ const Navbar = ({colorStyle}) => {
           <button className={styles.navbar_cart_btn} onClick={handleMenuToggle}><RxCross2 className={styles.menu_btn}/></button>
           <div className={styles.menu_list}>
           <Link href={'/'}><ul onClick={handleMenuToggle}>Home</ul></Link>
-              <Link href={'/'}><ul onClick={handleMenuToggle}>Projects</ul></Link>
-              <Link href={'/'}><ul onClick={handleMenuToggle}>About</ul></Link>
+              <Link href={'/residential'}><ul onClick={handleMenuToggle}>Residential</ul></Link>
+              <Link href={'/commercial'}><ul onClick={handleMenuToggle}>Commercial</ul></Link>
+              <Link href={'/interior-design'}><ul onClick={handleMenuToggle}>Interior Design</ul></Link>
+              <Link href={'/about'}><ul onClick={handleMenuToggle}>About</ul></Link>
           </div>
         </div>
         {/* {showCart && <Cart />} */}
