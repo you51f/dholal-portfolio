@@ -49,8 +49,8 @@ const ProjectDetails = ({project, dataIndex}) => {
       </div>
     </div>
 
-    <div className={styles.project_info}>
-    <div className={styles.project_info_text}>Details: </div>
+    <div className={styles.product_detail_desc}>
+    <div className={styles.project_info}>Details: </div>
         {project.description != null ? <div>
       <p className={styles.project_info_text}>{project.description}</p></div> : null}
      
