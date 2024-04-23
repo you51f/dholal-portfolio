@@ -49,10 +49,10 @@ const ProjectDetails = ({project, dataIndex}) => {
       </div>
     </div>
 
-    <div className={styles.product_detail_desc}>
-    <div className={styles.details}>Details: </div>
+    <div className={styles.project_info}>
+    <div className={styles.project_info_text}>Details: </div>
         {project.description != null ? <div>
-      <p>{project.description}</p></div> : null}
+      <p className={styles.project_info_text}>{project.description}</p></div> : null}
      
       <div className={styles.project_info}>
       {project.details?.map((item, i) => (

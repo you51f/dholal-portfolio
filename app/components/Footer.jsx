@@ -26,9 +26,9 @@ const Footer = () => {
                     <div className={styles.footer_policies}>
                     <div className={styles.footer_pages_title2}>Projects</div>
                         <div className={styles.footer_pages_items}>
-                            <Link href={'/residential'}><ul>Residential</ul></Link>
-                            <Link href={'/commercial'}><ul>Commercial</ul></Link>
-                            <Link href={'/interior-design'}><ul>Interior Design</ul></Link>
+                            <Link href={'/project//residential'}><ul>Residential</ul></Link>
+                            <Link href={'/project//commercial'}><ul>Commercial</ul></Link>
+                            <Link href={'/project//interior-design'}><ul>Interior Design</ul></Link>
                             
                         </div>
                     </div>
