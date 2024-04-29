@@ -19,6 +19,7 @@ function About() {
     <div className={styles.project_info}>
       <p className={styles.project_info_text}><span className={styles.project_info_title}>Email</span> Eng.Dholal@gmail.com</p>
       <p className={styles.project_info_text}><span className={styles.project_info_title}>Phone</span> +971525576724</p>
+      <p className={styles.project_info_text}><span className={styles.project_info_title}>LinkedIn</span> <a href='https://linkedin.com/in/dholal-khair'>Click here</a></p>
     </div>
     <div className={styles.about_btn2}><a href="/public/DHOLAL_MOHAMEDKHAIR_CV.pdf" download="Dholal_MohamedKahir_CV" class="btn-box">Download Resume</a></div>
     

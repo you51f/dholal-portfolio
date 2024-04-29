@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className={styles.footer_pages_items}>
                         <Link href={'/'}><ul>Home</ul></Link>
                         {/* <Link href={'/catalog'}><ul>Catalog</ul></Link> */}
-                        <Link href={'/about-us'}><ul>About Me</ul></Link>
+                        <Link href={'/about'}><ul>About Me</ul></Link>
                         </div>
                     </div>
                     <div className={styles.footer_policies}>
